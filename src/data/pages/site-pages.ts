@@ -3,6 +3,63 @@ import type { PageContent } from "@/types/content";
 
 export const sitePages: PageContent[] = [
   {
+    id: "guides",
+    translationKey: "guides",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "guides",
+    url: "/guides",
+    pageType: "guides",
+    presentation: { shell: "hub", variant: "card-grid" },
+    h1: `${site.gameName} Guides`,
+    seoTitle: `${site.gameName} Guides | Evolution, Rebirth, Codes, Tier List`,
+    metaDescription:
+      "Browse the +1 Mog Evolution guide index: release status, gameplay overview, evolution, rebirth reset, codes, tier list, Mog roster, trading values, and Discord.",
+    summary:
+      "Browse the +1 Mog Evolution guide index across launch, gameplay, roster, and community topics.",
+    hero: {
+      eyebrow: "Guides index",
+      subtitle:
+        "Browse every +1 Mog Evolution guide across launch status, gameplay, roster, and community topics.",
+      ctas: [
+        { label: "Release date", href: "/release-date" },
+        { label: "Gameplay overview", href: "/gameplay" },
+      ],
+    },
+    quickAnswer:
+      "The +1 Mog Evolution guides index links to every page on this hub across launch status, gameplay, roster, and community topics. Use this index to jump to the topic you need.",
+    keyFacts: [
+      { label: "Topics", value: "Launch, gameplay, roster, community" },
+      { label: "Universe", value: "10764479526" },
+      { label: "Research date", value: "2026-09-15" },
+    ],
+    modules: [
+      {
+        id: "guide-clusters",
+        type: "entity-grid",
+        heading: "Guide clusters",
+        items: [
+          { title: "Launch & status", summary: "Release date and Roblox Universe page.", href: "/release-date" },
+          { title: "Gameplay overview", summary: "Four pillars of the +1 Mog Evolution loop.", href: "/gameplay" },
+          { title: "Evolution guide", summary: "How to evolve Mogs into higher tiers.", href: "/evolution-guide" },
+          { title: "Beginner's guide", summary: "Day-one setup on Roblox.", href: "/beginners-guide" },
+          { title: "Rebirth reset", summary: "When the reset pays for itself.", href: "/rebirth" },
+          { title: "Codes & rewards", summary: "Redemption flow and where to watch.", href: "/codes" },
+          { title: "Tier list", summary: "Best Mogs ranked once tiers appear.", href: "/tier-list" },
+          { title: "Mogs / units", summary: "Roster categories pending first-party data.", href: "/units" },
+          { title: "Trading values", summary: "Trade sheet categories pending a channel.", href: "/trading" },
+          { title: "Discord", summary: "Community entry and invite verification.", href: "/discord" },
+          { title: "Wiki / FAQ", summary: "Community-maintained information channels.", href: "/wiki" },
+        ],
+      },
+    ],
+    faqIds: ["where-to-open-game", "release-date"],
+    relatedPageIds: ["release-date-status", "gameplay-overview", "wiki"],
+    schemaTypes: ["CollectionPage", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-15",
+  },
+  {
     id: "faq",
     translationKey: "faq",
     locale: "en-US",
@@ -12,47 +69,47 @@ export const sitePages: PageContent[] = [
     pageType: "faq",
     presentation: { shell: "content", variant: "reading-full" },
     h1: `${site.gameName} FAQ`,
-    seoTitle: `${site.gameName} FAQ | Common Questions`,
+    seoTitle: `${site.gameName} FAQ | Common Launch, Codes, and Community Questions`,
     metaDescription:
-      "A frequently asked questions page template for site status, release info, platforms, and starter guide scope.",
+      "+1 Mog Evolution FAQ: common launch, codes, gameplay, community, and wiki-scope questions answered with official Roblox Universe facts.",
     summary:
-      "A compact FAQ page for launch questions and safe starter answers.",
+      "Common launch, gameplay, codes, community, and wiki-scope questions answered with official Roblox Universe facts.",
     hero: {
       eyebrow: "FAQ",
       subtitle:
-        "Answer common launch, platform, wiki, and guide-scope questions without overclaiming.",
+        "Common launch, gameplay, codes, community, and wiki-scope questions answered with official Roblox Universe facts.",
       ctas: [
         { label: "Release Info", href: "/release-date" },
         { label: "Contact", href: "/contact" },
       ],
     },
     quickAnswer:
-      "This FAQ should answer only what the site can support with official facts or clear internal policy.",
+      "This FAQ answers launch, gameplay, codes, community, and wiki-scope questions using facts from the official Roblox Universe page (Universe 10764479526, Place ID 92648272637932) and the game-check brief dated 2026-09-15. Every answer is sourced; nothing here is invented from sibling +1 Evolution games.",
     keyFacts: [
-      { label: "FAQ source", value: "Official facts or site policy" },
+      { label: "FAQ source", value: "Official Roblox Universe page + game-check brief" },
       { label: "Schema", value: "FAQ JSON-LD enabled" },
-      { label: "Review", value: "Update as launch facts change" },
+      { label: "Review", value: "Dated to research date 2026-09-15" },
     ],
     modules: [
       {
         id: "faq-policy",
         type: "prose",
-        heading: "FAQ policy",
+        heading: "FAQ scope",
         body:
-          "Keep answers short, source-aware, and easy to update. Avoid speculative claims about release dates, platforms, gameplay systems, or technical details.",
+          "This page collects short answers to questions a new +1 Mog Evolution player or wiki reader is likely to ask. Longer explanations live on the dedicated pages linked below. Every answer on this page is dated to the research date and re-verified against the Roblox Universe page.",
       },
     ],
     faqIds: [
-      "what-is-this-site",
-      "is-official",
-      "release-date-known",
-      "platforms-known",
-      "guide-depth",
+      "where-to-open-game",
+      "release-date",
+      "still-available",
+      "active-codes",
+      "compare-siblings",
     ],
-    relatedPageIds: ["wiki", "guides", "release-date", "about"],
+    relatedPageIds: ["wiki", "release-date-status", "codes-rewards"],
     schemaTypes: ["FAQPage", "BreadcrumbList"],
-    sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    sourceStatus: "official",
+    lastReviewed: "2026-09-15",
   },
   {
     id: "about",
@@ -66,21 +123,22 @@ export const sitePages: PageContent[] = [
     h1: `About ${site.name}`,
     seoTitle: `About ${site.name}`,
     metaDescription:
-      "About page template for an unofficial game guide site, including scope, sourcing, and editorial principles.",
+      "About +1 Mog Evolution Wiki: an unofficial fan reference built from the official Roblox Universe page and the Roblox Games API snapshot, with facts dated to the research date.",
     summary:
-      "A trust page explaining the site's unofficial status, sourcing rules, and guide scope.",
+      "What +1 Mog Evolution Wiki covers, how facts are sourced, and what readers should expect.",
     hero: {
       eyebrow: "About",
       subtitle:
-        "Explain what the site covers, how facts are sourced, and what readers should expect.",
+        "An unofficial fan reference built from the official Roblox Universe page and the Roblox Games API snapshot.",
       ctas: [{ label: "Contact", href: "/contact" }],
     },
     quickAnswer:
-      `${site.name} is an unofficial guide hub template that should be filled with verified game information before launch.`,
+      `${site.name} is an unofficial fan reference hub for +1 Mog Evolution (Roblox Universe 10764479526, Place ID 92648272637932). Every fact is dated, sourced to the Roblox Universe page or the game-check brief, and re-verified against the live Universe page during the next research pass.`,
     keyFacts: [
-      { label: "Status", value: "Unofficial fan guide" },
-      { label: "Editorial rule", value: "Verified facts first" },
-      { label: "Scope", value: "Wiki, guides, release info, FAQ" },
+      { label: "Status", value: "Unofficial fan reference" },
+      { label: "Editorial rule", value: "Live Roblox Universe page as source of truth" },
+      { label: "Scope", value: "Launch, gameplay, codes, roster, community" },
+      { label: "Sibling boundary", value: "Does not import from +1 Muscle Evolution or +1 Magic Evolution" },
     ],
     modules: [
       {
@@ -88,21 +146,21 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "Mission",
         body:
-          "Help players find clear, well-structured information without pretending the site knows more than official sources support.",
+          "Help players find clear, well-structured information about +1 Mog Evolution without overclaiming facts the Roblox Universe page does not support. During the 0-21 day new-site freshness window, the wiki documents what is observable rather than inventing numbers the creator has not published.",
       },
       {
         id: "sourcing",
         type: "prose",
         heading: "Sourcing",
         body:
-          "Use official websites, store pages, developer updates, publisher posts, and press materials for launch facts. Mark uncertain areas as pending instead of filling gaps with guesses.",
+          "Facts are sourced from the official Roblox Universe page for Universe 10764479526, the Roblox Games API multi-get for that Universe, and the game-check brief recorded on 2026-09-15. Each page carries a research-date stamp. Sibling +1 Evolution games have separate Universe IDs and separate facts; this wiki never borrows numbers from them.",
       },
     ],
-    faqIds: ["what-is-this-site", "is-official"],
-    relatedPageIds: ["contact", "privacy-policy", "terms"],
+    faqIds: ["where-to-open-game", "compare-siblings"],
+    relatedPageIds: ["contact", "privacy-policy", "terms", "wiki"],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
-    sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    sourceStatus: "official",
+    lastReviewed: "2026-09-15",
   },
   {
     id: "contact",
@@ -116,21 +174,21 @@ export const sitePages: PageContent[] = [
     h1: "Contact",
     seoTitle: `Contact | ${site.name}`,
     metaDescription:
-      "Contact page template for corrections, official source updates, and site feedback.",
+      "How to send corrections, official source updates, and site feedback to +1 Mog Evolution Wiki.",
     summary:
-      "A trust page for corrections, source updates, and site feedback.",
+      "Send corrections, source updates, and site feedback.",
     hero: {
       eyebrow: "Contact",
       subtitle:
-        "Use this page for corrections, source updates, and feedback channels.",
+        "Send corrections, official source updates, and site feedback.",
       ctas: [{ label: "Read About", href: "/about" }],
     },
     quickAnswer:
-      "Replace this page with a working contact method before launch, such as an email address or contact form.",
+      "Send corrections, source updates, and site feedback through the support inbox at support@1mogevolution.pro. The address is configured via Cloudflare Email Routing on the production domain.",
     keyFacts: [
       { label: "Primary use", value: "Corrections and feedback" },
-      { label: "Launch requirement", value: "Add a real contact method" },
-      { label: "Response", value: "Set expectations clearly" },
+      { label: "Address", value: "support@1mogevolution.pro" },
+      { label: "Routing", value: "Cloudflare Email Routing" },
     ],
     modules: [
       {
@@ -138,21 +196,21 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "Contact method",
         body:
-          "Add a real email address or form endpoint before publishing. This placeholder exists so the site has a complete trust-page structure.",
+          "Send corrections, official source updates, and site feedback to support@1mogevolution.pro. The address is configured via Cloudflare Email Routing on the production domain. We do not request Roblox account credentials in DM or via this address.",
       },
       {
         id: "corrections",
         type: "prose",
         heading: "Corrections",
         body:
-          "Invite readers to send official source links when facts change. Do not ask for private account information or game account credentials.",
+          "Invite readers to send official source links (typically a link to the official Roblox Universe page or the verified Discord) when facts change. The next research pass will re-verify against the live Universe page.",
       },
     ],
     faqIds: [],
     relatedPageIds: ["about", "privacy-policy", "terms"],
     schemaTypes: ["Article", "BreadcrumbList"],
-    sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    sourceStatus: "official",
+    lastReviewed: "2026-09-15",
   },
   {
     id: "privacy-policy",
@@ -166,21 +224,21 @@ export const sitePages: PageContent[] = [
     h1: "Privacy Policy",
     seoTitle: `Privacy Policy | ${site.name}`,
     metaDescription:
-      "Privacy policy template for a lightweight game guide site using basic analytics and contact channels.",
+      "Privacy policy for +1 Mog Evolution Wiki: GA4 analytics only when configured, no user accounts, AdSense authentication preinstalled.",
     summary:
-      "A starter privacy policy page for analytics, logs, and contact messages.",
+      "How +1 Mog Evolution Wiki handles analytics, hosting, and contact messages.",
     hero: {
       eyebrow: "Privacy",
       subtitle:
-        "Explain what data the site collects, why it is used, and how visitors can make contact.",
+        "How the site handles analytics, hosting, and contact messages.",
       ctas: [{ label: "Terms", href: "/terms" }],
     },
     quickAnswer:
-      "This page should be reviewed before launch and updated to match the deployed site's analytics, hosting, and contact setup.",
+      "This site does not include user accounts, comments, or payments. If GA4 is configured, analytics may collect aggregate usage information according to Google Analytics settings. AdSense authentication is preinstalled through the standard ads.txt, account meta, and script carriers but does not run ads until the publisher activates the integration.",
     keyFacts: [
       { label: "Analytics", value: "GA4 only when configured" },
       { label: "Accounts", value: "No user accounts in V1" },
-      { label: "Ads", value: "Adsterra only when enabled" },
+      { label: "Ads", value: "AdSense preinstalled, Adsterra-ready slots empty" },
     ],
     modules: [
       {
@@ -188,14 +246,14 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "Information we collect",
         body:
-          "This site does not include accounts, comments, or payments. If GA4 is configured, analytics may collect aggregate usage information according to Google Analytics settings. If advertising is enabled, the third-party advertising provider may process technical request data and use cookies or similar technologies to deliver and measure ads.",
+          "This site does not include accounts, comments, or payments. If GA4 is configured, analytics may collect aggregate usage information according to Google Analytics settings. Cloudflare Workers Static Assets hosts the site; Cloudflare may process technical request data to serve the site.",
       },
       {
         id: "contact",
         type: "prose",
         heading: "Contact messages",
         body:
-          "If a contact method is added, messages may include the information visitors choose to send. Do not request sensitive personal information.",
+          "If a contact message is sent to support@1mogevolution.pro, the message may include the information visitors choose to send. We do not request sensitive personal information or Roblox account credentials.",
       },
       {
         id: "updates",
@@ -209,7 +267,7 @@ export const sitePages: PageContent[] = [
     relatedPageIds: ["about", "contact", "terms"],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-09-15",
   },
   {
     id: "terms",
@@ -223,21 +281,21 @@ export const sitePages: PageContent[] = [
     h1: "Terms of Use",
     seoTitle: `Terms of Use | ${site.name}`,
     metaDescription:
-      "Terms of use template for an unofficial game guide site, including scope, disclaimers, and acceptable use.",
+      "Terms of use for +1 Mog Evolution Wiki: unofficial fan reference, informational use only, sourced from the official Roblox Universe page.",
     summary:
-      "A starter terms page for an unofficial guide site.",
+      "Terms of use for an unofficial guide site.",
     hero: {
       eyebrow: "Terms",
       subtitle:
-        "Set clear expectations for unofficial status, informational use, and site changes.",
+        "Unofficial fan reference; informational use; sourced from the official Roblox Universe page.",
       ctas: [{ label: "Privacy Policy", href: "/privacy-policy" }],
     },
     quickAnswer:
-      "This terms page is a template and should be reviewed before launch for the final site owner and jurisdiction.",
+      "+1 Mog Evolution Wiki is an unofficial fan reference site. Facts are sourced from the official Roblox Universe page (Universe 10764479526, Place ID 92648272637932); use official sources for final purchase, platform, and release decisions.",
     keyFacts: [
       { label: "Use", value: "Informational guide content" },
       { label: "Official status", value: "Unofficial fan site" },
-      { label: "Review", value: "Update before launch" },
+      { label: "Sourced from", value: "Official Roblox Universe page" },
     ],
     modules: [
       {
@@ -245,27 +303,27 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "Unofficial site",
         body:
-          "This site is not affiliated with the game publisher, developer, platform holders, or trademark owners unless explicitly stated after launch.",
+          "This site is not affiliated with the +1 Mog Evolution developer, the Roblox Corporation, or any trademark owner unless explicitly stated. The site is an unofficial fan reference built from the public Roblox Universe page and the Roblox Games API snapshot.",
       },
       {
         id: "accuracy",
         type: "prose",
         heading: "Information accuracy",
         body:
-          "Guide information may change as official details are updated. Use official sources for final purchase, platform, and release decisions.",
+          "Guide information may change as official details are updated on the Roblox Universe page. Use the official Roblox Universe page for final release, platform, and creator-identity decisions.",
       },
       {
         id: "acceptable-use",
         type: "prose",
         heading: "Acceptable use",
         body:
-          "Do not misuse the site, scrape aggressively, interfere with service availability, or submit harmful content through any future contact channel.",
+          "Do not misuse the site, scrape aggressively, interfere with service availability, or submit harmful content through the support inbox. We do not request Roblox account credentials; treat any DM or email that does so as a phishing attempt.",
       },
     ],
     faqIds: [],
     relatedPageIds: ["about", "contact", "privacy-policy"],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-09-15",
   },
 ];

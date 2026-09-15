@@ -1,0 +1,192 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "beginners-guide",
+    "translationKey": "beginners-guide",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/beginners-guide",
+    "alternates": {
+      "en-US": "/beginners-guide"
+    }
+  },
+  {
+    "id": "codes-rewards",
+    "translationKey": "codes-rewards",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/codes",
+    "alternates": {
+      "en-US": "/codes"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "discord-community",
+    "translationKey": "discord-community",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/discord",
+    "alternates": {
+      "en-US": "/discord"
+    }
+  },
+  {
+    "id": "evolution-guide",
+    "translationKey": "evolution-guide",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/evolution-guide",
+    "alternates": {
+      "en-US": "/evolution-guide"
+    }
+  },
+  {
+    "id": "faq",
+    "translationKey": "faq",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/faq",
+    "alternates": {
+      "en-US": "/faq"
+    }
+  },
+  {
+    "id": "gameplay-overview",
+    "translationKey": "gameplay-overview",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/gameplay",
+    "alternates": {
+      "en-US": "/gameplay"
+    }
+  },
+  {
+    "id": "guides",
+    "translationKey": "guides",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides",
+    "alternates": {
+      "en-US": "/guides"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "rebirth-reset",
+    "translationKey": "rebirth-reset",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/rebirth",
+    "alternates": {
+      "en-US": "/rebirth"
+    }
+  },
+  {
+    "id": "release-date-status",
+    "translationKey": "release-date-status",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/release-date",
+    "alternates": {
+      "en-US": "/release-date"
+    }
+  },
+  {
+    "id": "roblox-page",
+    "translationKey": "roblox-page",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/roblox",
+    "alternates": {
+      "en-US": "/roblox"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  },
+  {
+    "id": "tier-list",
+    "translationKey": "tier-list",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/tier-list",
+    "alternates": {
+      "en-US": "/tier-list"
+    }
+  },
+  {
+    "id": "trading-values",
+    "translationKey": "trading-values",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/trading",
+    "alternates": {
+      "en-US": "/trading"
+    }
+  },
+  {
+    "id": "pets-units-list",
+    "translationKey": "pets-units-list",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/units",
+    "alternates": {
+      "en-US": "/units"
+    }
+  },
+  {
+    "id": "wiki",
+    "translationKey": "wiki-faq",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/wiki",
+    "alternates": {
+      "en-US": "/wiki"
+    }
+  }
+]

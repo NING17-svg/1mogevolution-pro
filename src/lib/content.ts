@@ -1,19 +1,45 @@
 import type { FAQItem, PageContent, RouteKind } from "@/types/content";
 import { entityFamilies } from "@/data/entities";
 import { faqItems } from "@/data/faq";
-import { guidePages } from "@/data/pages/guide-pages";
 import { homePage } from "@/data/pages/home";
-import { releasePages } from "@/data/pages/release-pages";
+import {
+  releaseDateStatus,
+  robloxPage,
+} from "@/data/pages/launch-pages";
+import {
+  gameplayOverview,
+  codesRewards,
+  evolutionGuide,
+  beginnersGuide,
+} from "@/data/pages/simulation-loop-pages";
+import {
+  tierList,
+  rebirthReset,
+  petsUnitsList,
+  tradingValues,
+} from "@/data/pages/materials-pages";
+import {
+  discordCommunity,
+  wikiFaq,
+} from "@/data/pages/community-pages";
 import { sitePages } from "@/data/pages/site-pages";
-import { wikiPages } from "@/data/pages/wiki-pages";
 import { buildEntityPages } from "@/lib/entities";
 import { normalizePath } from "@/lib/localization";
 
 const fixedPages: PageContent[] = [
   homePage,
-  ...wikiPages,
-  ...guidePages,
-  ...releasePages,
+  releaseDateStatus,
+  robloxPage,
+  gameplayOverview,
+  codesRewards,
+  evolutionGuide,
+  beginnersGuide,
+  tierList,
+  rebirthReset,
+  petsUnitsList,
+  tradingValues,
+  discordCommunity,
+  wikiFaq,
   ...sitePages,
 ];
 
@@ -87,20 +113,14 @@ export function getFaqsForPage(page: PageContent): FAQItem[] {
 
 export function getRelatedPages(page: PageContent): PageContent[] {
   return page.relatedPageIds
-    .map((id) => getPageById(id))
-    .filter((related): related is PageContent => Boolean(related));
+    .map((id) => pages.find((candidate) => candidate.id === id))
+    .filter((candidate): candidate is PageContent => Boolean(candidate));
 }
 
 function compareUrls(left: PageContent, right: PageContent): number {
-  if (left.url === right.url) return 0;
-  return left.url < right.url ? -1 : 1;
+  return left.url.localeCompare(right.url);
 }
 
-/**
- * Returns a small, deterministic set of content pages for a locale's homepage.
- * Trust pages and tools are intentionally excluded so this is driven only by
- * editorial review dates on actual indexable content pages.
- */
 export function getRecentUpdates(
   locale: string,
   limit = 5,
