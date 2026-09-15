@@ -145,7 +145,7 @@ export const faqItems: FAQItem[] = [
     id: "sibling-codes",
     question: "Do +1 Mog Evolution codes work in sibling +1 Evolution games?",
     answer:
-      "No. +1 Muscle Evolution, +1 Magic Evolution, +1 Superhero Evolution, and +1 Speed Evolve share the +1 Evolution template but have separate Universe IDs, Place IDs, and code lists. A code that works in one sibling will not redeem in +1 Mog Evolution.",
+      "No. +1 Muscle Evolution, +1 Magic Evolution, +1 Superhero Evolution, and +1 Speed Evolve share the +1 Evolution series but have separate Universe IDs, Place IDs, and code lists. A code that works in one sibling will not redeem in +1 Mog Evolution.",
     pageIds: ["codes-rewards"],
     category: "gameplay",
     schemaEligible: true,
@@ -205,7 +205,7 @@ export const faqItems: FAQItem[] = [
     id: "rebirth-mechanic",
     question: "How does the rebirth reset work in +1 Mog Evolution?",
     answer:
-      "Rebirth is the +1 Evolution template's mid-game accelerator: when progress in the clicker pillar slows, you reset your run in exchange for a permanent multiplier that compounds into the next run. The exact reward curve for +1 Mog Evolution is not announced as of 2026-09-15.",
+      "Rebirth is the +1 Evolution game family's mid-game accelerator: when progress in the clicker pillar slows, you reset your run in exchange for a permanent multiplier that compounds into the next run. The exact reward curve for +1 Mog Evolution is not announced as of 2026-09-15.",
     pageIds: ["rebirth-reset"],
     category: "gameplay",
     schemaEligible: true,
@@ -255,7 +255,7 @@ export const faqItems: FAQItem[] = [
     id: "obtain-mogs",
     question: "How do I obtain Mogs in +1 Mog Evolution?",
     answer:
-      "In template-family terms, Mogs are obtained through play (earn or unlock during the clicker loop), through the Mog evolution pillar (higher forms unlock as you progress), and through events when the creator publishes limited-time Mogs. Specific obtain methods for +1 Mog Evolution are not announced as of 2026-09-15.",
+      "In series-family terms, Mogs are obtained through play (earn or unlock during the clicker loop), through the Mog evolution pillar (higher forms unlock as you progress), and through events when the creator publishes limited-time Mogs. Specific obtain methods for +1 Mog Evolution are not announced as of 2026-09-15.",
     pageIds: ["pets-units-list"],
     category: "gameplay",
     schemaEligible: true,
@@ -355,7 +355,7 @@ export const faqItems: FAQItem[] = [
     id: "compare-siblings",
     question: "How does +1 Mog Evolution compare to other +1 Evolution games?",
     answer:
-      "The title shares the clicker + pet-evolution + rebirth + codes template with siblings like +1 Muscle Evolution and +1 Magic Evolution, but every sibling has its own Universe, Place ID, code list, tier list, and Discord. Treat each sibling as a separate game; do not carry data across them.",
+      "The title shares the clicker + pet-evolution + rebirth + codes series with siblings like +1 Muscle Evolution and +1 Magic Evolution, but every sibling has its own Universe, Place ID, code list, tier list, and Discord. Treat each sibling as a separate game; do not carry data across them.",
     pageIds: ["home", "faq", "about"],
     category: "wiki",
     schemaEligible: true,

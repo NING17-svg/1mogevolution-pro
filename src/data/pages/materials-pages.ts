@@ -29,7 +29,7 @@ export const tierList: PageContent = {
   keyFacts: [
     { label: "Tier sheet status", value: "Not published as of 2026-09-15" },
     { label: "Universe", value: "10764479526" },
-    { label: "Tier categories", value: "S / A / B / C + starter tier (template-family)" },
+    { label: "Tier categories", value: "S / A / B / C + starter tier (series-family)" },
     { label: "Source rule", value: "First-party Roblox Universe or verified Discord" },
     { label: "Sibling rule", value: "Do not import from +1 Muscle Evolution or +1 Magic Evolution" },
   ],
@@ -75,7 +75,7 @@ export const rebirthReset: PageContent = {
   metaDescription:
     "+1 Mog Evolution rebirth reset: when the reset pays for itself and what it costs, plus what is not announced as of 2026-09-15.",
   summary:
-    "When the rebirth reset pays for itself in +1 Mog Evolution, what the trade-off looks like in template-family terms, and what is not announced.",
+    "When the rebirth reset pays for itself in +1 Mog Evolution, what the trade-off looks like in series-family terms, and what is not announced.",
   hero: {
     eyebrow: "Rebirth reset",
     subtitle:
@@ -86,7 +86,7 @@ export const rebirthReset: PageContent = {
     ],
   },
   quickAnswer:
-    "Rebirth is the +1 Evolution template's classic mid-game accelerator: when progress in the clicker pillar slows, you reset your run in exchange for a permanent multiplier that compounds into the next run. The exact reward curve and threshold values for +1 Mog Evolution are not announced as of 2026-09-15, so this page documents the trade-off in template-family terms rather than quoting an official curve.",
+    "Rebirth is the +1 Evolution game family's classic mid-game accelerator: when progress in the clicker pillar slows, you reset your run in exchange for a permanent multiplier that compounds into the next run. The exact reward curve and threshold values for +1 Mog Evolution are not announced as of 2026-09-15, so this page documents the trade-off in series-family terms rather than quoting an official curve.",
   keyFacts: [
     { label: "Mechanic", value: "Reset loop in exchange for permanent multiplier" },
     { label: "Curve", value: "Not announced as of 2026-09-15" },
@@ -98,9 +98,9 @@ export const rebirthReset: PageContent = {
     {
       id: "rebirth-mechanic",
       type: "prose",
-      heading: "How rebirth works in template-family terms",
+      heading: "How rebirth works in series-family terms",
       body:
-        "Across the +1 Evolution template family on Roblox, the rebirth reset is the lever you pull when the clicker pillar's growth starts to flatten. You trade your current run's currency and Mog progress for a permanent multiplier that applies to the next run, and the multiplier compounds across resets. The mechanic is what makes the template family feel mid-game instead of a flat curve: each reset unlocks faster progression than the last run could reach.",
+        "Across the +1 Evolution game family on Roblox, the rebirth reset is the lever you pull when the clicker pillar's growth starts to flatten. You trade your current run's currency and Mog progress for a permanent multiplier that applies to the next run, and the multiplier compounds across resets. The mechanic is what makes the series family feel mid-game instead of a flat curve: each reset unlocks faster progression than the last run could reach.",
     },
     {
       id: "rebirth-timing",
@@ -143,7 +143,7 @@ export const petsUnitsList: PageContent = {
   metaDescription:
     "+1 Mog Evolution Mog/unit list: the categories that will populate the roster once the first-party list is published on the Roblox Universe page.",
   summary:
-    "The Mog categories that will populate +1 Mog Evolution's unit list once first-party data lands, plus how to obtain Mogs in template-family terms.",
+    "The Mog categories that will populate +1 Mog Evolution's unit list once first-party data lands, plus how to obtain Mogs in series-family terms.",
   hero: {
     eyebrow: "Mog list",
     subtitle:
@@ -154,7 +154,7 @@ export const petsUnitsList: PageContent = {
     ],
   },
   quickAnswer:
-    "No first-party +1 Mog Evolution Mog roster with stats is published on the Roblox Universe page as of 2026-09-15. This page documents the categories that will populate the unit list — starter Mogs, mid-tier Mogs, evolution-stage Mogs, and event/limited Mogs — and how to obtain Mogs in template-family terms, rather than fabricating a roster.",
+    "No first-party +1 Mog Evolution Mog roster with stats is published on the Roblox Universe page as of 2026-09-15. This page documents the categories that will populate the unit list — starter Mogs, mid-tier Mogs, evolution-stage Mogs, and event/limited Mogs — and how to obtain Mogs in series-family terms, rather than fabricating a roster.",
   keyFacts: [
     { label: "First-party roster", value: "Not published as of 2026-09-15" },
     { label: "Universe", value: "10764479526" },

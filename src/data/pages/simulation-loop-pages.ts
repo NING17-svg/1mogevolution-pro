@@ -31,7 +31,7 @@ export const gameplayOverview: PageContent = {
     { label: "Pillar 2", value: "Mog evolution (collect → grow → evolve)" },
     { label: "Pillar 3", value: "Rebirth reset (reset for permanent multiplier)" },
     { label: "Pillar 4", value: "Code redemption (alphanumeric boosts)" },
-    { label: "Genre", value: "Roblox pet-sim clicker (+1 Evolution template family)" },
+    { label: "Genre", value: "Roblox pet-sim clicker (+1 Evolution game family)" },
     { label: "Universe", value: "10764479526" },
   ],
   modules: [
@@ -67,7 +67,7 @@ export const gameplayOverview: PageContent = {
       type: "prose",
       heading: "Clicker incremental pillar",
       body:
-        "The first pillar is a classic clicker/tycoon loop. You tap to earn currency, then spend that currency on upgrades that automate or multiply your tap income. In a Roblox +1 Evolution template, the clicker pillar is the first thing every new player meets, and it remains a baseline income source even after the Mog evolution and rebirth pillars unlock. Treat this pillar as your daily-currency floor: every other pillar multiplies on top of it.",
+        "The first pillar is a classic clicker/tycoon loop. You tap to earn currency, then spend that currency on upgrades that automate or multiply your tap income. In a Roblox +1 Evolution series, the clicker pillar is the first thing every new player meets, and it remains a baseline income source even after the Mog evolution and rebirth pillars unlock. Treat this pillar as your daily-currency floor: every other pillar multiplies on top of it.",
     },
     {
       id: "evolution",
@@ -81,7 +81,7 @@ export const gameplayOverview: PageContent = {
       type: "prose",
       heading: "Rebirth reset pillar",
       body:
-        "The rebirth pillar is the +1 Evolution template's classic mid-game accelerator: when progress in the clicker pillar slows, you can reset your run in exchange for a permanent multiplier that compounds into the next run. The Rebirth Reset page explains when the reset pays for itself, what the trade-off looks like in template-family terms, and what is not announced as of 2026-09-15 (a documented rebirth reward curve is not published).",
+        "The rebirth pillar is the +1 Evolution game family's classic mid-game accelerator: when progress in the clicker pillar slows, you can reset your run in exchange for a permanent multiplier that compounds into the next run. The Rebirth Reset page explains when the reset pays for itself, what the trade-off looks like in series-family terms, and what is not announced as of 2026-09-15 (a documented rebirth reward curve is not published).",
     },
     {
       id: "codes",
@@ -164,7 +164,7 @@ export const codesRewards: PageContent = {
       tone: "tip",
       title: "Sibling boundary",
       body:
-        "+1 Muscle Evolution, +1 Magic Evolution, +1 Superhero Evolution, and +1 Speed Evolve share the +1 Evolution template but have separate Universe IDs, Place IDs, and code lists. A code that works in +1 Muscle Evolution will not redeem in +1 Mog Evolution; do not paste codes across siblings.",
+        "+1 Muscle Evolution, +1 Magic Evolution, +1 Superhero Evolution, and +1 Speed Evolve share the +1 Evolution series but have separate Universe IDs, Place IDs, and code lists. A code that works in +1 Muscle Evolution will not redeem in +1 Mog Evolution; do not paste codes across siblings.",
     },
   ],
   faqIds: ["active-codes", "redemption-surface", "sibling-codes"],
@@ -188,7 +188,7 @@ export const evolutionGuide: PageContent = {
   metaDescription:
     "+1 Mog Evolution evolution guide: the Mog progression path, what changes between tiers, and what is not announced as of 2026-09-15.",
   summary:
-    "How to evolve Mogs into higher tiers in +1 Mog Evolution, what the Mog progression path looks like in template-family terms, and what is not announced.",
+    "How to evolve Mogs into higher tiers in +1 Mog Evolution, what the Mog progression path looks like in series-family terms, and what is not announced.",
   hero: {
     eyebrow: "Evolution guide",
       subtitle:
@@ -211,14 +211,14 @@ export const evolutionGuide: PageContent = {
     {
       id: "evolution-shape",
       type: "prose",
-      heading: "How Mog evolution works in template-family terms",
+      heading: "How Mog evolution works in series-family terms",
       body:
-        "Across the +1 Evolution template family on Roblox, Mog-style units share a common progression shape: you obtain a unit, you play with it long enough to meet a growth threshold, and the unit advances into a stronger form. Higher tiers typically compound the clicker pillar's income and unlock new Mog variants. The exact thresholds, multipliers, and tier names in +1 Mog Evolution are not announced as of 2026-09-15.",
+        "Across the +1 Evolution game family on Roblox, Mog-style units share a common progression shape: you obtain a unit, you play with it long enough to meet a growth threshold, and the unit advances into a stronger form. Higher tiers typically compound the clicker pillar's income and unlock new Mog variants. The exact thresholds, multipliers, and tier names in +1 Mog Evolution are not announced as of 2026-09-15.",
     },
     {
       id: "evolution-stages",
       type: "steps",
-      heading: "Mog progression stages (template-family terms)",
+      heading: "Mog progression stages (series-family terms)",
       items: [
         { title: "Obtain", body: "Earn or unlock a Mog through play." },
         { title: "Grow", body: "Use the Mog in the clicker loop to accumulate progression currency." },

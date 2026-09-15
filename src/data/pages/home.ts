@@ -145,7 +145,7 @@ export const homePage: PageContent = {
       tone: "tip",
       title: "Sibling boundary",
       body:
-        "Because the game is part of the broader +1 Evolution template family on Roblox, the same clicker + pet-evolution + rebirth pattern shows up in siblings like +1 Muscle Evolution and +1 Magic Evolution, but those are different Universe IDs with their own codes, units, and Discord. Do not import sibling data here; everything on this site is anchored to Universe 10764479526 and Place ID 92648272637932.",
+        "Because the game is part of the broader +1 Evolution game family on Roblox, the same clicker + pet-evolution + rebirth pattern shows up in siblings like +1 Muscle Evolution and +1 Magic Evolution, but those are different Universe IDs with their own codes, units, and Discord. Do not import sibling data here; everything on this site is anchored to Universe 10764479526 and Place ID 92648272637932.",
     },
     {
       id: "data-boundary",
