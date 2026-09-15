@@ -6,6 +6,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-15 - Adsterra six-unit integration applied
+
+- Task: Replace empty Adsterra placeholders in `src/data/ads.ts` with real codes collected from the Adsterra publisher dashboard for the fixed six units (Native Banner, Banner 728x90, Banner 468x60, Banner 320x50, Banner 160x600, Smartlink).
+- Files changed: `src/data/ads.ts`.
+- URLs affected: None.
+- SEO/GEO changed: None.
+- Ad baseline: All six fixed unit values are now populated; runtime DOM containers and Smartlink URL are real.
+- Verification: `npm run verify` (typecheck, lint, template/content/SEO validation).
+
 ### 2026-08-12 - Static discovery and review freshness baseline added
 
 - Task: Add locale-aware static search, automatic recent updates, visible review dates, and browser metadata/security defaults to the shared template.
