@@ -68,9 +68,9 @@ export const site: SiteConfig = {
       description: "Roblox Games API multi-get for Universe 10764479526 — identity snapshot, visits, favorites, and player count used as the dated planning source.",
     },
     {
-      label: "Roblox creator groups",
-      href: "https://www.roblox.com/groups",
-      description: "Roblox groups index — placeholder until the exact +1 Mog Evolution Creator Group id is confirmed by downstream codex work.",
+      label: "Navoj Mog creator community",
+      href: "https://www.roblox.com/communities/426881025",
+      description: "Official +1 Mog Evolution creator community profile on Roblox — authoritative surface for the verified Discord invite.",
     },
   ],
   disclaimer:

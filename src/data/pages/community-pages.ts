@@ -9,44 +9,52 @@ export const discordCommunity: PageContent = {
   url: "/discord",
   pageType: "wiki",
   presentation: { shell: "content", variant: "reading-right-rail" },
-  h1: "+1 Mog Evolution Discord: Community Entry Point and Invite Verification",
-  seoTitle: "+1 Mog Evolution Discord: Verified Invite and Community Entry",
+  h1: "+1 Mog Evolution Discord: Verified Invite (discord.gg/aZ6w6QgPZ9) and Re-Verification",
+  seoTitle: "+1 Mog Evolution Discord: Verified Invite (discord.gg/aZ6w6QgPZ9)",
   metaDescription:
-    "+1 Mog Evolution Discord community: how to find the verified invite once published and avoid third-party mirrors, plus the absence of a public invite as of 2026-09-15.",
+    "+1 Mog Evolution Discord community: the verified invite discord.gg/aZ6w6QgPZ9, how to re-verify against the live Roblox Universe page and the Navoj Mog creator group, and how to avoid third-party mirrors.",
   summary:
-    "How to find the verified +1 Mog Evolution Discord invite once published, how to avoid third-party mirrors, and the absence of a public invite as of 2026-09-15.",
+    "The verified +1 Mog Evolution Discord invite (discord.gg/aZ6w6QgPZ9), how to re-verify it against the live Roblox Universe page and the Navoj Mog creator group, and how to avoid third-party mirrors.",
   hero: {
     eyebrow: "Community",
     subtitle:
-      "Verified invite linked from the official Roblox Universe page once published; no public Discord invite is observable as of 2026-09-15.",
+      "Verified invite: discord.gg/aZ6w6QgPZ9 — re-verify against the live Roblox Universe page or the Navoj Mog creator group before joining.",
     ctas: [
+      { label: "Verified invite", href: "https://discord.gg/aZ6w6QgPZ9" },
       { label: "Roblox Universe page", href: "/roblox" },
-      { label: "Wiki / FAQ", href: "/wiki" },
     ],
   },
   quickAnswer:
-    "As of 2026-09-15, no verified official +1 Mog Evolution Discord invite is published on the Roblox Universe page or any indexed official social channel. Once the creator publishes an invite, the verified link will be surfaced from the Universe page description or the creator's Roblox group — never from a third-party forum, search-result snippet, or social post that is not explicitly linked from the Universe page.",
+    "The verified +1 Mog Evolution Discord invite is https://discord.gg/aZ6w6QgPZ9. The invite is reachable from third-party trackers and the Navoj Mog creator's Roblox group profile (https://www.roblox.com/communities/426881025). Always re-verify the invite against the live Roblox Universe page or the Navoj Mog creator group before joining; third-party mirrors drift and search-result copies of Discord invites can resolve to a different server.",
   keyFacts: [
-    { label: "Verified invite", value: "Not announced as of 2026-09-15" },
+    { label: "Verified invite", value: "https://discord.gg/aZ6w6QgPZ9" },
     { label: "Universe", value: "10764479526" },
-    { label: "Authoritative surface", value: "Roblox Universe page description or creator's Roblox group" },
-    { label: "Verify rule", value: "Re-verify against the Universe page before joining" },
+    { label: "Creator group", value: "https://www.roblox.com/communities/426881025" },
+    { label: "Verify rule", value: "Re-verify against the Universe page or creator group before joining" },
   ],
   modules: [
     {
-      id: "no-invite-yet",
+      id: "verified-invite",
       type: "callout",
-      tone: "caution",
-      title: "No public Discord invite observed",
+      tone: "tip",
+      title: "Verified invite",
       body:
-        "As of 2026-09-15, no verified +1 Mog Evolution Discord invite is published on the Roblox Universe page or any indexed official social channel. The game is 16 days old, which is inside the typical new-site window for a creator to publish community links. This page will populate the verified invite once the Universe page surfaces it.",
+        "The current +1 Mog Evolution Discord invite is https://discord.gg/aZ6w6QgPZ9. Re-verify it against the live Roblox Universe page at https://www.roblox.com/games/92648272637932/+1-Mog-Evolution or the Navoj Mog creator group at https://www.roblox.com/communities/426881025 before joining. If either of those surfaces stops pointing at this invite, treat it as stale and check this page for an updated link.",
     },
     {
       id: "verify-invite",
       type: "prose",
-      heading: "Always verify the invite",
+      heading: "Always re-verify the invite",
       body:
-        "When a Discord invite does appear, re-verify it against the official Roblox Universe page or the creator's Roblox group before joining. Third-party mirrors and search-result copies of Discord invites drift: the invite that worked yesterday can resolve to a different server tomorrow. The Universe page is the authoritative source for the invite currently in use.",
+        "Discord invites drift: the invite that worked yesterday can resolve to a different server tomorrow. Before joining, cross-check the invite against one of the two authoritative surfaces — the live Roblox Universe page at https://www.roblox.com/games/92648272637932/+1-Mog-Evolution, or the Navoj Mog creator group at https://www.roblox.com/communities/426881025. Third-party trackers and search-result copies of Discord invites should never be the only source you trust.",
+    },
+    {
+      id: "third-party-warning",
+      type: "callout",
+      tone: "caution",
+      title: "Avoid third-party mirrors",
+      body:
+        "Third-party forums, Discord-listing sites, and search-result snippets frequently copy stale or unrelated invites for click-bait. Never join a +1 Mog Evolution Discord from any link that is not echoed by the live Universe page or the Navoj Mog creator group. The verified invite above is the only entry point this site publishes.",
     },
     {
       id: "discord-channels",

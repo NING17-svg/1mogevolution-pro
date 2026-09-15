@@ -9,90 +9,78 @@ export const gameplayOverview: PageContent = {
   url: "/gameplay",
   pageType: "wiki",
   presentation: { shell: "content", variant: "reading-right-rail" },
-  h1: "+1 Mog Evolution Gameplay Overview: The Four-Pillar Loop",
-  seoTitle: "+1 Mog Evolution Gameplay: Clicker, Mog Evolution, Rebirth, Codes",
+  h1: "+1 Mog Evolution Gameplay: Named Upgrade + Auto-System Path (W2)",
+  seoTitle: "+1 Mog Evolution Gameplay: Hammer, Bonesmash, Auto Systems Order",
   metaDescription:
-    "+1 Mog Evolution gameplay overview: the four pillars of the clicker + Mog evolution + rebirth reset + code redemption loop on Roblox Universe 10764479526.",
+    "+1 Mog Evolution gameplay: the named upgrade + enable order for the live [W2] Roblox experience — Hammer → Bonesmash → Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend → Auto Rebirth → Auto Claim Daily Rewards.",
   summary:
-    "Walk through the four pillars of +1 Mog Evolution: clicker incremental, Mog evolution, rebirth reset, and code redemption.",
+    "Walk through the named +1 Mog Evolution [W2] progression path: Hammer → Bonesmash first upgrade, then the six Auto systems in the published enable order.",
   hero: {
     eyebrow: "Gameplay overview",
     subtitle:
-      "Four pillars drive every session: clicker incremental, Mog evolution, rebirth reset, and code redemption.",
+      "The named [W2] loop: Hammer → Bonesmash, then Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend → Auto Rebirth → Auto Claim Daily Rewards.",
     ctas: [
-      { label: "Evolution guide", href: "/evolution-guide" },
+      { label: "Beginner's guide", href: "/beginners-guide" },
       { label: "Rebirth reset", href: "/rebirth" },
     ],
   },
   quickAnswer:
-    "+1 Mog Evolution's gameplay loop splits into four pillars that every guide in this hub covers in more depth. The clicker pillar lets you tap to earn currency and buy upgrades that automate or multiply that tap income. The Mog evolution pillar turns collected Mogs into stronger forms, which is where the 'evolution' in the title shows up. The rebirth reset pillar resets the loop at certain thresholds in exchange for a permanent multiplier. The code redemption pillar exchanges short alphanumeric codes for boosts, currencies, or Mog unlocks.",
+    "The live Roblox +1 Mog Evolution experience is tagged [W2] on third-party trackers — World 1 and World 2 are two separate Roblox experiences with their own leaderboards, and World 1 progress does not carry over into World 2. Inside the [W2] experience, the named progression path is: tap with Hammer to earn currency, take Bonesmash as the first upgrade once it unlocks, then enable the six Auto systems in order — Auto mog → Auto farm → Auto Appeal Gain → Auto Ascend (after earning Wings) → Auto Rebirth → Auto Claim Daily Rewards.",
   keyFacts: [
-    { label: "Pillar 1", value: "Clicker incremental (tap → currency → upgrades)" },
-    { label: "Pillar 2", value: "Mog evolution (collect → grow → evolve)" },
-    { label: "Pillar 3", value: "Rebirth reset (reset for permanent multiplier)" },
-    { label: "Pillar 4", value: "Code redemption (alphanumeric boosts)" },
-    { label: "Genre", value: "Roblox pet-sim clicker (+1 Evolution game family)" },
+    { label: "World tag", value: "[W2] (separate from World 1, no carryover, separate leaderboard)" },
+    { label: "First upgrade", value: "Bonesmash (after Hammer taps)" },
+    { label: "Auto enable order", value: "Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend → Auto Rebirth → Auto Claim Daily Rewards" },
+    { label: "Ascend unlock", value: "Earn Wings first (Appeal threshold unannounced)" },
     { label: "Universe", value: "10764479526" },
   ],
   modules: [
     {
-      id: "pillar-comparison",
-      type: "comparison",
-      heading: "The four pillars compared",
-      options: [
-        {
-          name: "Clicker incremental",
-          summary: "Tap to earn currency; buy upgrades that automate or multiply tap income.",
-          bestFor: "First session pacing and idle progression.",
-        },
-        {
-          name: "Mog evolution",
-          summary: "Collect Mogs and grow them into stronger forms.",
-          bestFor: "Long-term progression and roster depth.",
-        },
-        {
-          name: "Rebirth reset",
-          summary: "Reset the loop at thresholds in exchange for a permanent multiplier.",
-          bestFor: "Mid-game acceleration when growth slows.",
-        },
-        {
-          name: "Code redemption",
-          summary: "Exchange alphanumeric codes for boosts, currencies, or Mog unlocks.",
-          bestFor: "Free catch-up boosts when new codes drop.",
-        },
+      id: "world-tag",
+      type: "callout",
+      tone: "tip",
+      title: "World 1 vs World 2",
+      body:
+        "The live Universe page at https://www.roblox.com/games/92648272637932/+1-Mog-Evolution is tagged [W2]. World 1 and World 2 are two separate Roblox experiences with separate leaderboards — World 1 progress does not carry over into World 2. This hub covers the [W2] experience only; World 1 has its own Universe ID and is out of scope here.",
+    },
+    {
+      id: "progression-order",
+      type: "steps",
+      heading: "Named upgrade + Auto-system enable order",
+      items: [
+        { title: "Tap with Hammer", body: "Tap to earn currency in the [W2] experience's opening loop." },
+        { title: "Buy Bonesmash", body: "Take Bonesmash as the first upgrade once it unlocks — this is the named first upgrade for [W2]." },
+        { title: "Enable Auto Mog", body: "Turn on Auto Mog once it unlocks to start auto-earning currency hands-free." },
+        { title: "Enable Auto Farm", body: "Add Auto Farm as the next automation layer." },
+        { title: "Enable Auto Appeal Gain", body: "Turn on Auto Appeal Gain to push Appeal toward the Wings threshold." },
+        { title: "Earn Wings → enable Auto Ascend", body: "Earn Wings, then enable Auto Ascend as the mid-game accelerator. The exact Wings Appeal threshold is not announced." },
+        { title: "Enable Auto Rebirth", body: "Turn on Auto Rebirth once it unlocks so resets happen automatically when growth flattens." },
+        { title: "Enable Auto Claim Daily Rewards", body: "Finish the enable ladder with Auto Claim Daily Rewards for free catch-up boosts." },
       ],
     },
     {
-      id: "clicker",
-      type: "prose",
-      heading: "Clicker incremental pillar",
-      body:
-        "The first pillar is a classic clicker/tycoon loop. You tap to earn currency, then spend that currency on upgrades that automate or multiply your tap income. In a Roblox +1 Evolution series, the clicker pillar is the first thing every new player meets, and it remains a baseline income source even after the Mog evolution and rebirth pillars unlock. Treat this pillar as your daily-currency floor: every other pillar multiplies on top of it.",
+      id: "auto-systems",
+      type: "comparison",
+      heading: "What each Auto system does",
+      options: [
+        { name: "Auto Mog", summary: "Auto-earns Mogs without tapping.", bestFor: "First automation to enable." },
+        { name: "Auto Farm", summary: "Auto-runs the farm income stream.", bestFor: "Layered income on top of Auto Mog." },
+        { name: "Auto Appeal Gain", summary: "Pushes Appeal toward the Wings unlock.", bestFor: "Mid-game Appeal progression." },
+        { name: "Auto Ascend", summary: "Automates Ascend once Wings is earned.", bestFor: "Mid-game acceleration." },
+        { name: "Auto Rebirth", summary: "Automates the rebirth reset when growth flattens.", bestFor: "Compounding multiplier runs." },
+        { name: "Auto Claim Daily Rewards", summary: "Auto-claims the daily reward each session.", bestFor: "Free catch-up boosts." },
+      ],
     },
     {
-      id: "evolution",
-      type: "prose",
-      heading: "Mog evolution pillar",
+      id: "progression-notes",
+      type: "callout",
+      tone: "caution",
+      title: "What is not announced",
       body:
-        "Mogs are the collectible units the title is named after. The Mog evolution pillar is what makes +1 Mog Evolution feel different from a bare clicker: collected Mogs grow into stronger forms, and the progression from one tier to the next is what the Evolution Guide unpacks in detail. As of 2026-09-15, no first-party Mog roster with stats is published on the Roblox Universe page; the Evolution Guide documents the categories that will appear once data lands rather than inventing a roster.",
-    },
-    {
-      id: "rebirth",
-      type: "prose",
-      heading: "Rebirth reset pillar",
-      body:
-        "The rebirth pillar is the +1 Evolution game family's classic mid-game accelerator: when progress in the clicker pillar slows, you can reset your run in exchange for a permanent multiplier that compounds into the next run. The Rebirth Reset page explains when the reset pays for itself, what the trade-off looks like in series-family terms, and what is not announced as of 2026-09-15 (a documented rebirth reward curve is not published).",
-    },
-    {
-      id: "codes",
-      type: "prose",
-      heading: "Code redemption pillar",
-      body:
-        "Codes are short alphanumeric strings you exchange inside the Roblox game for boosts, currencies, or Mog unlocks. The Codes and Rewards page tracks the redemption flow and where to watch for new codes; no public code list is observable on the official Roblox Universe page as of 2026-09-15, so the page documents the absence rather than importing codes from sibling +1 Evolution games.",
+        "The exact Wings Appeal threshold, any post-Bonesmash tool tier, and the documented rebirth reward curve are not announced as of 2026-09-15. The Roblox Universe page lists Hammer, Wings, Ascend, and the leaderboard but does not publish the precise unlock numbers; this hub maps the named loop without inventing those thresholds.",
     },
   ],
   faqIds: ["four-pillars", "first-pillar", "active-codes"],
-  relatedPageIds: ["evolution-guide", "rebirth-reset", "codes-rewards", "beginners-guide"],
+  relatedPageIds: ["beginners-guide", "rebirth-reset", "evolution-guide", "codes-rewards"],
   schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
   sourceStatus: "official",
   lastReviewed: "2026-09-15",
@@ -251,42 +239,45 @@ export const beginnersGuide: PageContent = {
   url: "/beginners-guide",
   pageType: "wiki",
   presentation: { shell: "content", variant: "reading-right-rail" },
-  h1: "+1 Mog Evolution Beginner's Guide: Day-One Setup on Roblox",
-  seoTitle: "+1 Mog Evolution Beginner's Guide (2026): Day-One Setup on Roblox",
+  h1: "+1 Mog Evolution Beginner's Guide: Hammer, Bonesmash, Auto Enable Order",
+  seoTitle: "+1 Mog Evolution Beginner's Guide (2026): Hammer, Bonesmash, Auto Order",
   metaDescription:
-    "+1 Mog Evolution beginner's guide: day-one setup on Roblox, the first session loop, and what to expect in the first 21 days.",
+    "+1 Mog Evolution beginner's guide: day-one setup on Roblox [W2], the named Hammer → Bonesmash first upgrade, and the six Auto systems enable order.",
   summary:
-    "Day-one setup on Roblox for +1 Mog Evolution, the first-session loop, and what to expect in the first 21 days of public availability.",
+    "Day-one setup on Roblox for +1 Mog Evolution's [W2] experience, the named Hammer → Bonesmash first upgrade, and the six Auto systems enable order.",
   hero: {
     eyebrow: "Beginner's guide",
     subtitle:
-      "Day-one setup on Roblox: open the game, learn the clicker loop, claim your first Mog, and avoid sibling cross-imports.",
+      "Day-one setup on the live [W2] Roblox experience: Hammer → Bonesmash, then Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend → Auto Rebirth → Auto Claim Daily Rewards.",
     ctas: [
       { label: "Open the game", href: "/roblox" },
       { label: "Gameplay overview", href: "/gameplay" },
     ],
   },
   quickAnswer:
-    "To start playing +1 Mog Evolution on Roblox, open the official Universe page at https://www.roblox.com/games/92648272637932/+1-Mog-Evolution, sign in to your Roblox account, and click Play. The game resolves to Place ID 92648272637932 under Universe 10764479526. Spend your first session on the clicker pillar, claim your first Mog, and bookmark the Universe page so the freshness check stays one click away.",
+    "To start playing +1 Mog Evolution on Roblox, open the official Universe page at https://www.roblox.com/games/92648272637932/+1-Mog-Evolution (the live [W2] experience), sign in to your Roblox account, and click Play. The game resolves to Place ID 92648272637932 under Universe 10764479526. Tap with Hammer to earn currency, take Bonesmash as your first named upgrade, then enable the six Auto systems in order: Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend (once Wings is earned) → Auto Rebirth → Auto Claim Daily Rewards.",
   keyFacts: [
-    { label: "First action", value: "Open the Roblox Universe page" },
+    { label: "World tag", value: "[W2] (no carryover from World 1)" },
     { label: "Universe", value: "10764479526" },
     { label: "Place ID", value: "92648272637932" },
-    { label: "First pillar", value: "Clicker incremental" },
-    { label: "First Mog", value: "Claim during the first session loop" },
+    { label: "First upgrade", value: "Bonesmash (after Hammer taps)" },
+    { label: "Auto enable order", value: "Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend → Auto Rebirth → Auto Claim Daily Rewards" },
     { label: "Freshness window", value: "21 days from 2026-08-30" },
   ],
   modules: [
     {
       id: "first-session",
       type: "steps",
-      heading: "Day-one setup on Roblox",
+      heading: "Day-one setup on the [W2] Roblox experience",
       items: [
-        { title: "Open the Universe page", body: "Visit https://www.roblox.com/games/92648272637932/+1-Mog-Evolution." },
+        { title: "Open the Universe page", body: "Visit https://www.roblox.com/games/92648272637932/+1-Mog-Evolution — this is the live [W2] experience." },
         { title: "Sign in or create a Roblox account", body: "Use the Roblox client or web sign-in; the game launches inside the Roblox client." },
         { title: "Click Play", body: "Place ID 92648272637932 under Universe 10764479526 loads inside the client." },
-        { title: "Learn the clicker loop", body: "Tap to earn currency, then buy the first upgrade that automates or multiplies tap income." },
-        { title: "Claim your first Mog", body: "Use the Mog evolution pillar to collect and grow your first unit." },
+        { title: "Tap with Hammer", body: "Tap to earn currency in the opening loop." },
+        { title: "Buy Bonesmash", body: "Take Bonesmash as the first named upgrade once it unlocks." },
+        { title: "Enable Auto Mog, then Auto Farm", body: "Turn on Auto Mog, then Auto Farm, to start earning hands-free." },
+        { title: "Enable Auto Appeal Gain, then earn Wings for Auto Ascend", body: "Push Appeal toward Wings, then enable Auto Ascend. The exact Wings Appeal threshold is not announced." },
+        { title: "Enable Auto Rebirth and Auto Claim Daily Rewards", body: "Finish the enable ladder so resets and daily rewards happen automatically." },
         { title: "Bookmark the Universe page", body: "Revisit weekly during the 21-day new-site freshness window." },
       ],
     },
@@ -295,7 +286,7 @@ export const beginnersGuide: PageContent = {
       type: "prose",
       heading: "First-session tips",
       body:
-        "Spend the first session focused on the clicker pillar: it builds the daily-currency floor that the Mog evolution and rebirth pillars multiply on top of. Do not paste codes from sibling +1 Evolution games — codes are Universe-scoped. If you see a community tier sheet or trade-value table before a first-party source, treat it as unverified until the Roblox Universe page or the verified Discord publishes the same numbers.",
+        "Spend the first session on the named progression path rather than chasing every upgrade — Bonesmash first, then the six Auto systems in the published order. Codes are Universe-scoped, so do not paste codes from sibling +1 Evolution games. If you see a community tier sheet or trade-value table before a first-party source, treat it as unverified until the Roblox Universe page or the verified Discord publishes the same numbers.",
     },
     {
       id: "freshness-window",

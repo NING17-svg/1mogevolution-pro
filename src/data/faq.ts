@@ -25,7 +25,7 @@ export const faqItems: FAQItem[] = [
     id: "creator-group",
     question: "Where is the official +1 Mog Evolution creator group?",
     answer:
-      "The creator group is published on the Roblox groups index at https://www.roblox.com/groups. The exact Creator Group id is not confirmed in this hub as of 2026-09-15; verify the group link from the Roblox Universe page sidebar before joining or quoting it.",
+      "The +1 Mog Evolution creator group is the Navoj Mog community at https://www.roblox.com/communities/426881025. That creator profile also surfaces the verified Discord invite; re-verify against the live Roblox Universe page sidebar before quoting the group link.",
     pageIds: ["roblox-page"],
     category: "platform",
     schemaEligible: true,
@@ -105,7 +105,7 @@ export const faqItems: FAQItem[] = [
     id: "four-pillars",
     question: "What are the four pillars of the +1 Mog Evolution loop?",
     answer:
-      "The four pillars are: (1) clicker incremental — tap to earn currency and buy upgrades; (2) Mog evolution — collect and grow Mogs into stronger forms; (3) rebirth reset — reset the loop in exchange for a permanent multiplier; (4) code redemption — exchange alphanumeric codes for boosts, currencies, or Mog unlocks.",
+      "In the live [W2] experience, the named progression path is: tap with Hammer → take Bonesmash as the first upgrade → enable the six Auto systems in order (Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend → Auto Rebirth → Auto Claim Daily Rewards). Each Auto system is the named equivalent of a loop pillar; the exact post-Bonesmash tool tier and Wings Appeal threshold are not announced.",
     pageIds: ["gameplay-overview"],
     category: "gameplay",
     schemaEligible: true,
@@ -115,7 +115,7 @@ export const faqItems: FAQItem[] = [
     id: "first-pillar",
     question: "Which pillar should I focus on first?",
     answer:
-      "The clicker pillar is the first pillar every new player meets and remains the daily-currency floor. The Mog evolution pillar unlocks next, followed by the rebirth reset pillar once growth in the clicker pillar starts to flatten, and the code redemption pillar runs in parallel whenever new codes are published.",
+      "Tap with Hammer to earn currency, then take Bonesmash as the first named upgrade. After that, enable the six Auto systems in the published order: Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend (once Wings is earned) → Auto Rebirth → Auto Claim Daily Rewards. The exact Wings Appeal threshold is not announced.",
     pageIds: ["gameplay-overview"],
     category: "gameplay",
     schemaEligible: true,
@@ -295,7 +295,7 @@ export const faqItems: FAQItem[] = [
     id: "discord-official",
     question: "Is there an official +1 Mog Evolution Discord?",
     answer:
-      "As of 2026-09-15, no verified official +1 Mog Evolution Discord invite is published on the Roblox Universe page or any indexed official social channel. The Discord Community page tracks invite verification once the invite is published.",
+      "Yes. The verified +1 Mog Evolution Discord invite is https://discord.gg/aZ6w6QgPZ9. It is reachable from third-party trackers and the Navoj Mog creator community profile (https://www.roblox.com/communities/426881025); re-verify against the live Roblox Universe page or the creator group before joining.",
     pageIds: ["discord-community"],
     category: "wiki",
     schemaEligible: true,
@@ -315,7 +315,7 @@ export const faqItems: FAQItem[] = [
     id: "discord-invite-verification",
     question: "How do I verify the Discord invite is official?",
     answer:
-      "Re-verify the invite link against the official Roblox Universe page or the creator's Roblox group before joining. Third-party mirrors and search-result copies of Discord invites drift; the Universe page is the authoritative source for the invite currently in use.",
+      "Re-verify the invite link against the official Roblox Universe page (https://www.roblox.com/games/92648272637932/+1-Mog-Evolution) or the Navoj Mog creator group (https://www.roblox.com/communities/426881025) before joining. Third-party mirrors and search-result copies of Discord invites drift; the Universe page and the creator group are the authoritative sources for the invite currently in use.",
     pageIds: ["discord-community"],
     category: "wiki",
     schemaEligible: true,
@@ -355,7 +355,7 @@ export const faqItems: FAQItem[] = [
     id: "compare-siblings",
     question: "How does +1 Mog Evolution compare to other +1 Evolution games?",
     answer:
-      "The title shares the clicker + pet-evolution + rebirth + codes series with siblings like +1 Muscle Evolution and +1 Magic Evolution, but every sibling has its own Universe, Place ID, code list, tier list, and Discord. Treat each sibling as a separate game; do not carry data across them.",
+      "The title is the live [W2] +1 Mog Evolution experience (Universe 10764479526). World 1 and World 2 are two separate Roblox experiences with separate leaderboards and no progress carryover. Siblings such as +1 Muscle Evolution and +1 Magic Evolution are separate Universe IDs with their own codes, units, and Discord; treat each sibling as a separate game and do not carry data across them.",
     pageIds: ["home", "faq", "about"],
     category: "wiki",
     schemaEligible: true,

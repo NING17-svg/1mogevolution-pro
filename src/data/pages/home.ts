@@ -27,7 +27,7 @@ export const homePage: PageContent = {
     ],
   },
   quickAnswer:
-    "+1 Mog Evolution is the new Roblox +1 Evolution pet-sim clicker that launched on Universe ID 10764479526 (Place ID 92648272637932) on August 30, 2026. Sixteen days in, the Roblox game page is publicly playable, sitting at top-trending #30 with about 10,104 concurrent players, 71,409 favorites, and 4.15M visits. This hub is the launch entry point for opening the game, learning the four-pillar gameplay loop, redeeming codes, and joining the community.",
+    "+1 Mog Evolution is the Roblox [W2] +1 Mog Evolution experience (Universe ID 10764479526, Place ID 92648272637932), launched August 30, 2026 and tagged [W2] on third-party trackers. World 1 and World 2 are two separate Roblox experiences with separate leaderboards — World 1 progress does not carry over into World 2. Sixteen days in, the Universe page is publicly playable at top-trending #30 with about 10,104 concurrent players, 71,409 favorites, and 4.15M visits.",
   keyFacts: [
     { label: "Universe", value: "10764479526 (Place ID 92648272637932)" },
     { label: "Created", value: "2026-08-30" },
@@ -57,7 +57,7 @@ export const homePage: PageContent = {
         {
           title: "Gameplay overview",
           summary:
-            "The four-pillar clicker + Mog evolution + rebirth + codes loop.",
+            "The named [W2] progression path: Hammer → Bonesmash → Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend → Auto Rebirth → Auto Claim Daily Rewards.",
           href: "/gameplay/",
         },
         {
@@ -74,28 +74,28 @@ export const homePage: PageContent = {
       heading: "How the gameplay loop works",
       options: [
         {
-          name: "Clicker",
+          name: "Hammer + Bonesmash",
           summary:
-            "Tap to earn currency, then buy upgrades that automate or multiply tap income.",
-          bestFor: "First session pacing.",
+            "Tap with Hammer to earn currency, then take Bonesmash as the first upgrade once it unlocks.",
+          bestFor: "Day-one progression in the [W2] experience.",
         },
         {
-          name: "Mog evolution",
+          name: "Auto Mog / Farm / Appeal",
           summary:
-            "Collected Mogs grow into stronger forms, which is where the 'evolution' in the title shows up.",
-          bestFor: "Long-term progression.",
+            "Auto Mog → Auto Farm → Auto Appeal Gain enable in that order as currency allows.",
+          bestFor: "Hands-free idle progression.",
         },
         {
-          name: "Rebirth reset",
+          name: "Wings → Auto Ascend",
           summary:
-            "Reset the loop at certain thresholds in exchange for a permanent multiplier.",
+            "Earn Wings to unlock Auto Ascend, the mid-game accelerator that compounds across runs.",
           bestFor: "Mid-game acceleration.",
         },
         {
-          name: "Codes",
+          name: "Auto Rebirth + Daily",
           summary:
-            "Short alphanumeric codes exchanged for boosts, currencies, or Mog unlocks.",
-          bestFor: "Free catch-up boosts.",
+            "Auto Rebirth and Auto Claim Daily Rewards finish the enable ladder for the [W2] loop.",
+          bestFor: "Late-game catch-up and free boosts.",
         },
       ],
     },
@@ -106,7 +106,7 @@ export const homePage: PageContent = {
       items: [
         { title: "Release date", summary: "Universe created 2026-08-30; 16 days live.", href: "/release-date/" },
         { title: "Roblox game page", summary: "Universe 10764479526, Place ID 92648272637932.", href: "/roblox/" },
-        { title: "Gameplay overview", summary: "Four pillars: clicker, Mog evolution, rebirth, codes.", href: "/gameplay/" },
+        { title: "Gameplay overview", summary: "Named [W2] loop: Hammer → Bonesmash → six Auto systems.", href: "/gameplay/" },
         { title: "Codes & rewards", summary: "Redemption flow and where to watch for new codes.", href: "/codes/" },
       ],
     },
@@ -143,9 +143,9 @@ export const homePage: PageContent = {
       id: "sibling-boundary",
       type: "callout",
       tone: "tip",
-      title: "Sibling boundary",
+      title: "World 1 vs World 2 boundary",
       body:
-        "Because the game is part of the broader +1 Evolution game family on Roblox, the same clicker + pet-evolution + rebirth pattern shows up in siblings like +1 Muscle Evolution and +1 Magic Evolution, but those are different Universe IDs with their own codes, units, and Discord. Do not import sibling data here; everything on this site is anchored to Universe 10764479526 and Place ID 92648272637932.",
+        "The [W2] tag on the live Roblox Universe page means this is the World 2 experience of +1 Mog Evolution — not a sibling +1 Evolution game. World 1 and World 2 are two separate Roblox experiences with their own leaderboards, and World 1 progress does not carry over into World 2. Everything on this site is anchored to the live [W2] Universe (10764479526) and Place ID 92648272637932; unrelated +1 Evolution siblings such as +1 Muscle Evolution or +1 Magic Evolution have their own Universe IDs and are out of scope here.",
     },
     {
       id: "data-boundary",

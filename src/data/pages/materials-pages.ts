@@ -70,27 +70,28 @@ export const rebirthReset: PageContent = {
   url: "/rebirth",
   pageType: "wiki",
   presentation: { shell: "content", variant: "reading-right-rail" },
-  h1: "+1 Mog Evolution Rebirth Reset: When to Reset and What It Costs",
-  seoTitle: "+1 Mog Evolution Rebirth Reset (2026): When to Reset, What It Costs",
+  h1: "+1 Mog Evolution Rebirth Reset: Auto Rebirth in the W2 Named Loop",
+  seoTitle: "+1 Mog Evolution Rebirth Reset (2026): Auto Rebirth Position in W2 Loop",
   metaDescription:
-    "+1 Mog Evolution rebirth reset: when the reset pays for itself and what it costs, plus what is not announced as of 2026-09-15.",
+    "+1 Mog Evolution rebirth reset: where Auto Rebirth sits in the named [W2] progression path (Hammer → Bonesmash → six Auto systems), and what is not announced.",
   summary:
-    "When the rebirth reset pays for itself in +1 Mog Evolution, what the trade-off looks like in series-family terms, and what is not announced.",
+    "Where Auto Rebirth sits in the named +1 Mog Evolution [W2] progression path, when the reset pays for itself, and what is not announced.",
   hero: {
     eyebrow: "Rebirth reset",
     subtitle:
-      "When to reset the loop and how the permanent multiplier compounds into the next run.",
+      "Auto Rebirth sits fifth in the named [W2] enable order: after Hammer → Bonesmash → Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend.",
     ctas: [
       { label: "Gameplay overview", href: "/gameplay" },
-      { label: "Evolution guide", href: "/evolution-guide" },
+      { label: "Beginner's guide", href: "/beginners-guide" },
     ],
   },
   quickAnswer:
-    "Rebirth is the +1 Evolution game family's classic mid-game accelerator: when progress in the clicker pillar slows, you reset your run in exchange for a permanent multiplier that compounds into the next run. The exact reward curve and threshold values for +1 Mog Evolution are not announced as of 2026-09-15, so this page documents the trade-off in series-family terms rather than quoting an official curve.",
+    "In the live [W2] +1 Mog Evolution experience, the named progression path is Hammer → Bonesmash first upgrade, then the six Auto systems in order: Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend → Auto Rebirth → Auto Claim Daily Rewards. Auto Rebirth is the fifth Auto system to enable and it automates the reset once it unlocks, trading current-run progress for a compounding multiplier across runs.",
   keyFacts: [
-    { label: "Mechanic", value: "Reset loop in exchange for permanent multiplier" },
+    { label: "Position in [W2] loop", value: "Auto Rebirth (5th of 6 Auto systems)" },
+    { label: "Named enable order", value: "Hammer → Bonesmash → Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend → Auto Rebirth → Auto Claim Daily Rewards" },
     { label: "Curve", value: "Not announced as of 2026-09-15" },
-    { label: "Best timing", value: "When clicker pillar growth slows noticeably" },
+    { label: "Best timing", value: "After Auto Mog / Auto Farm / Auto Appeal Gain / Auto Ascend are enabled" },
     { label: "Trade-off", value: "Lose run progress; gain compounding multiplier" },
     { label: "Universe", value: "10764479526" },
   ],
@@ -98,19 +99,19 @@ export const rebirthReset: PageContent = {
     {
       id: "rebirth-mechanic",
       type: "prose",
-      heading: "How rebirth works in series-family terms",
+      heading: "Where Auto Rebirth sits in the [W2] loop",
       body:
-        "Across the +1 Evolution game family on Roblox, the rebirth reset is the lever you pull when the clicker pillar's growth starts to flatten. You trade your current run's currency and Mog progress for a permanent multiplier that applies to the next run, and the multiplier compounds across resets. The mechanic is what makes the series family feel mid-game instead of a flat curve: each reset unlocks faster progression than the last run could reach.",
+        "The live Universe page describes a path that runs from Hammer through Wings and Ascend onto a leaderboard. Inside the +1 Mog Evolution [W2] experience, that path is the named enable ladder: take Bonesmash as the first upgrade, then enable Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend (after earning Wings) → Auto Rebirth → Auto Claim Daily Rewards. Auto Rebirth automates the reset lever so it fires automatically once growth in the run starts to flatten.",
     },
     {
       id: "rebirth-timing",
       type: "steps",
-      heading: "When to consider the reset",
+      heading: "When to turn on Auto Rebirth",
       items: [
-        { title: "Clicker growth flattens", body: "Tap income no longer meaningfully increases between upgrades." },
-        { title: "Mog roster is plateauing", body: "No new tier unlocks are visible at current progression." },
+        { title: "Auto Mog, Auto Farm, Auto Appeal Gain, Auto Ascend are enabled", body: "Auto Rebirth is the fifth Auto system in the named order; enable it once the prior four are running." },
+        { title: "Run growth flattens", body: "Tap income, Auto Mog, Auto Farm, and Auto Appeal Gain stops meaningfully increasing between upgrades." },
         { title: "Multiplier preview looks favourable", body: "The next reset's previewed multiplier meaningfully outpaces the current run's growth." },
-        { title: "Commit the reset", body: "Reset the loop and start the next run with the new multiplier applied." },
+        { title: "Let Auto Rebirth fire", body: "Once enabled, Auto Rebirth handles the reset so the compounding multiplier takes effect each run." },
       ],
     },
     {
@@ -119,11 +120,11 @@ export const rebirthReset: PageContent = {
       tone: "tip",
       title: "What is not announced",
       body:
-        "A documented +1 Mog Evolution rebirth reward curve (exact multiplier per reset, exact reset thresholds, exact Mog progress lost on reset) is not announced as of 2026-09-15. Until the Roblox Universe page or the verified Discord publishes those numbers, this page does not estimate the curve.",
+        "The exact rebirth reward curve (multiplier per reset, reset thresholds, Mog progress lost on reset) and the Wings Appeal threshold that unlocks Auto Ascend are not announced as of 2026-09-15. Until the Roblox Universe page or the verified Discord publishes those numbers, this page maps the named loop without estimating the curve.",
     },
   ],
   faqIds: ["rebirth-mechanic", "rebirth-timing", "rebirth-curve"],
-  relatedPageIds: ["gameplay-overview", "evolution-guide", "beginners-guide"],
+  relatedPageIds: ["gameplay-overview", "beginners-guide", "evolution-guide"],
   schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
   sourceStatus: "official",
   lastReviewed: "2026-09-15",

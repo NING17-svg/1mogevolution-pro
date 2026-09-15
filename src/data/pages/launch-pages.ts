@@ -133,7 +133,7 @@ export const robloxPage: PageContent = {
       tone: "tip",
       title: "Creator group",
       body:
-        "The +1 Mog Evolution Creator Group is published on the Roblox groups index (https://www.roblox.com/groups). The exact Creator Group id is not confirmed in this hub as of 2026-09-15; verify the group link from the Roblox Universe page sidebar before joining or quoting it.",
+        "The +1 Mog Evolution Creator Group is the Navoj Mog community at https://www.roblox.com/communities/426881025. That community profile is the authoritative surface for the verified Discord invite; treat any other community link as unverified until the Universe page sidebar agrees.",
     },
     {
       id: "play-button",
@@ -160,7 +160,7 @@ export const robloxPage: PageContent = {
         { field: "Place ID", value: "92648272637932", source: "Roblox Universe metadata" },
         { field: "Universe URL", value: "https://www.roblox.com/games/92648272637932/+1-Mog-Evolution", source: "Roblox" },
         { field: "API URL", value: "https://games.roblox.com/v1/games?universeIds=10764479526", source: "Roblox Games API" },
-        { field: "Creator group URL", value: "https://www.roblox.com/groups", source: "Roblox groups index" },
+        { field: "Creator group URL", value: "https://www.roblox.com/communities/426881025", source: "Navoj Mog creator community" },
         { field: "Top trending (US)", value: "#30", source: "Game-check brief, 2026-09-15" },
         { field: "Concurrent players", value: "~10,104", source: "Game-check brief, 2026-09-15" },
         { field: "Favorites", value: "71,409", source: "Game-check brief, 2026-09-15" },

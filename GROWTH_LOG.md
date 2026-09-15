@@ -6,6 +6,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-16 - W2 framing + named progression + verified Discord invite
+
+- Task: Apply the urgent auto-systems-idle-progression, high world-1-vs-world-2, and normal verified-discord-invite content updates for the [W2] +1 Mog Evolution Roblox experience.
+- Files changed: `src/data/pages/home.ts`, `src/data/pages/simulation-loop-pages.ts` (`gameplayOverview`, `beginnersGuide`), `src/data/pages/materials-pages.ts` (`rebirthReset`), `src/data/pages/community-pages.ts` (`discordCommunity`), `src/data/pages/launch-pages.ts` (`robloxPage`), `src/data/faq.ts`, `src/data/site.ts`, `CONTENT_INDEX.md`.
+- URLs affected: `/`, `/gameplay`, `/beginners-guide`, `/rebirth`, `/discord`, `/roblox`.
+- SEO/GEO changed: `home`, `gameplay-overview`, `beginners-guide`, `rebirth-reset`, `discord-community`, `roblox-page` titles, summaries, FAQs, key facts, and CTAs now reflect the [W2] tag (no World 1 carryover, separate leaderboard) and the named progression path (Hammer → Bonesmash → Auto Mog → Auto Farm → Auto Appeal Gain → Auto Ascend → Auto Rebirth → Auto Claim Daily Rewards). Navoj Mog creator community (`https://www.roblox.com/communities/426881025`) is now the authoritative surface for the verified Discord invite `https://discord.gg/aZ6w6QgPZ9`.
+- Progression boundary: Anything beyond the published Universe description — Wings Appeal threshold, post-Bonesmash tool tier, exact rebirth reward curve — remains labelled unannounced.
+- Verification: `npm run verify` (typecheck, lint, template/content/SEO validation, build).
+
 ### 2026-09-15 - Adsterra six-unit integration applied
 
 - Task: Replace empty Adsterra placeholders in `src/data/ads.ts` with real codes collected from the Adsterra publisher dashboard for the fixed six units (Native Banner, Banner 728x90, Banner 468x60, Banner 320x50, Banner 160x600, Smartlink).
